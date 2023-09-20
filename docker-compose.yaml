@@ -1,0 +1,7 @@
+version: '3'
+services:
+  hey-node:
+    image: shubhabrata19/hey-nodejs:0.0.1.RELEASE
+    ports:
+      - "8000:3000"
+    
